@@ -1,0 +1,142 @@
+{
+    "Start":{
+        "workers": 0,
+        "days": 1,
+        "previous tasks":[]
+    },
+    "Task 1":{
+        "workers": 1,
+        "days": 2,
+        "previous tasks":[
+            "Start"
+        ]
+    },
+    "Task 2":{
+        "workers": 3,
+        "days": 3,
+        "previous tasks":[
+            "Start"
+        ]
+    },
+    "Task 3":{
+        "workers": 2,
+        "days": 2,
+        "previous tasks":[
+            "Start"
+        ]
+    },
+    "Task 4":{
+        "workers": 5,
+        "days": 3,
+        "previous tasks":[
+            "Start"
+        ]
+    },
+    "Task 5":{
+        "workers": 3,
+        "days": 1,
+        "previous tasks":[
+            "Task 1",
+            "Task 2"
+        ]
+    },
+    "Task 6":{
+        "workers": 3,
+        "days": 1,
+        "previous tasks":[
+            "Task 1",
+            "Task 2"
+        ]
+    },
+    "Task 7":{
+        "workers": 2,
+        "days": 1,
+        "previous tasks":[
+            "Task 3"
+        ]
+    },
+    "Task 8":{
+        "workers": 1,
+        "days": 2,
+        "previous tasks":[
+            "Task 4"
+        ]
+    },
+    "Task 9":{
+        "workers": 1,
+        "days": 1,
+        "previous tasks":[
+            "Task 4"
+        ]
+    },
+    "Task 10":{
+        "workers": 5,
+        "days": 2,
+        "previous tasks":[
+            "Task 5"
+        ]
+    },
+    "Task 11":{
+        "workers": 1,
+        "days": 3,
+        "previous tasks":[
+            "Task 6",
+            "Task 7"
+        ]
+    },
+    "Task 12":{
+        "workers": 2,
+        "days": 1,
+        "previous tasks":[
+            "Task 7",
+            "Task 8",
+            "Task 9"
+        ]
+    },
+    "Task 13":{
+        "workers": 1,
+        "days": 3,
+        "previous tasks":[
+            "Task 10",
+            "Task 11"
+        ]
+    },
+    "Task 14":{
+        "workers": 5,
+        "days": 2,
+        "previous tasks":[
+            "Task 11"
+        ]
+    },
+    "Task 15":{
+        "workers": 1,
+        "days": 3,
+        "previous tasks":[
+            "Task 12"
+        ]
+    },
+    "Task 16":{
+        "workers": 2,
+        "days": 1,
+        "previous tasks":[
+            "Task 14",
+            "Task 13"
+        ]
+    },
+    "Task 17":{
+        "workers": 2,
+        "days": 1,
+        "previous tasks":[
+            "Task 14",
+            "Task 15"
+        ]
+    },
+    "End":{
+        "workers": 0,
+        "days": 1,
+        "previous tasks":[
+            "Task 16",
+            "Task 17"
+        ]
+    }
+}
